@@ -1,0 +1,4 @@
+src_generated/test/**
+test/**
+jest.config.js
+webpack.config.js
