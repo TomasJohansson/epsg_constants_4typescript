@@ -5,6 +5,8 @@
   "main": "./src_generated/src/index.js",
   "types": "./src_generated/src/index.d.ts",
   "scripts": {
+    "dev":  "webpack --mode development",
+    "prod": "webpack --mode production",    
     "test": "jest"
   },
   "keywords": [],
