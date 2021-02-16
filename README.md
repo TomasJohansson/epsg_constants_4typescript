@@ -7,6 +7,32 @@ For example if you want to use the CRS SWEREF99TM but do not remember its EPSG n
 
 ![EPSG_SQL](docs/images/sweden_1.png)
 
+
+## Usage
+
+Install the module into your TypeScript (or JavaScript) module:
+
+```shell-script
+pnpm install @programmerare/epsg_constants
+```
+or
+```shell-script
+npm install @programmerare/epsg_constants
+```
+
+Then you can use this kind of code from a TypeScript module:
+```typescript
+import {EpsgNumber} from '@programmerare/epsg_constants';
+console.log("EpsgNumber WGS84 : " + EpsgNumber.WORLD__WGS_84__4326);
+console.log("EpsgNumber SWEREF99TM : " + EpsgNumber.SWEDEN__SWEREF99_TM__3006);
+```
+You can use the same code as above from a JavaScript Node module, if you are using *"type": "module"* in the file 'package.json', assuming that you are also using a recent version of Node.  
+An alternative for JavaScript, if not using *"type": "module"*  is to use the *require* syntax instead as below:
+```javascript
+const {EpsgNumber} = require("@programmerare/epsg_constants");
+console.log("EpsgNumber WGS84 : " + EpsgNumber.WORLD__WGS_84__4326);
+console.log("EpsgNumber SWEREF99TM : " + EpsgNumber.SWEDEN__SWEREF99_TM__3006);
+```
 ## License
 
 The constants in this library was [generated](https://github.com/TomasJohansson/crsTransformations/tree/master/crs-transformation-code-generation) based on data from [EPSG](http://www.epsg.org) Dataset.
