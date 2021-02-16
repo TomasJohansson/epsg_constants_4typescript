@@ -1,4 +1,4 @@
-﻿import EpsgNumber from '../src/epsg_number';
+﻿import {EpsgNumber} from '../src/epsg_number';
 
 test('some EPSG constants', () => {
   expect(

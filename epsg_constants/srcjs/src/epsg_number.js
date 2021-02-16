@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.EpsgNumber = void 0;
 var EpsgNumber = /** @class */ (function () {
     function EpsgNumber() {
     }
@@ -8,4 +9,4 @@ var EpsgNumber = /** @class */ (function () {
     EpsgNumber.SWEDEN__12_00__SWEREF99_12_00__3007 = 3007;
     return EpsgNumber;
 }());
-exports.default = EpsgNumber;
+exports.EpsgNumber = EpsgNumber;
