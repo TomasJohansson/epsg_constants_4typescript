@@ -9,7 +9,7 @@ For example if you want to use the CRS SWEREF99TM but do not remember its EPSG n
 
 ## License
 
-The constants in this library was generated based on data from [EPSG](http://www.epsg.org) Dataset.
+The constants in this library was [generated](https://github.com/TomasJohansson/crsTransformations/tree/master/crs-transformation-code-generation) based on data from [EPSG](http://www.epsg.org) Dataset.
 It is released with license MIT.
 
 Regarding the data itself: Ownership of the EPSG Dataset by IOGP is acknowledged as in the 
