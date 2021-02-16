@@ -82,7 +82,11 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+dist/*.js
+dist/*.htm
+!dist/epsg_constants_bundle.js
+!dist/index.htm
+
 
 # Gatsby files
 .cache/

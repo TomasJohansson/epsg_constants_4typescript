@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        This webpage (i.e. the used javascript file) has been tested successfully with three Windows 10 web browsers
+        (Chrome 88, Firefox 85, Microsoft Edge 88)
+    -->
+    <script src="epsg_constants_bundle.js"></script>
+    
+
+    <script>
+        window.onload = function load() {
+            var crs = library_epsg_constants;
+            document.write("<br> WGS_84: " + crs.EpsgNumber.WORLD__WGS_84__4326);
+            document.write("<br> SWEREF99_TM: " + crs.EpsgNumber.SWEDEN__SWEREF99_TM__3006);
+        };            
+    </script>
+</body>
+</html>
