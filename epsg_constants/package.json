@@ -2,8 +2,8 @@
   "name": "epsg_constants",
   "version": "1.0.0",
   "description": "",
-  "main": "./srcjs/src/index.js",
-  "types": "./srcjs/src/index.d.ts",
+  "main": "./src_generated/src/index.js",
+  "types": "./src_generated/src/index.d.ts",
   "scripts": {
     "test": "jest"
   },
