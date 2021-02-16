@@ -5,7 +5,7 @@
 The constants can be used for getting intellisense help, for example when using Visual Studio Code, and using some TypeScript/JavaScript coordinate transformation library using EPSG codes.  
 For example if you want to use the CRS SWEREF99TM but do not remember its EPSG number 3006, then you can find it as in the screenshot below.
 
-![EPSG_SQL](images/sweden_1.png)
+![EPSG_SQL](docs/images/sweden_1.png)
 
 ## License
 
