@@ -26,13 +26,17 @@ import {EpsgNumber} from '@programmerare/epsg_constants';
 console.log("EpsgNumber WGS84 : " + EpsgNumber.WORLD__WGS_84__4326);
 console.log("EpsgNumber SWEREF99TM : " + EpsgNumber.SWEDEN__SWEREF99_TM__3006);
 ```
-You can use the same code as above from a JavaScript Node module, if you are using *"type": "module"* in the file 'package.json', assuming that you are also using a recent version of Node.  
-An alternative for JavaScript, if not using *"type": "module"*  is to use the *require* syntax instead as below:
+You can use the same code as above from a JavaScript [Node.js](https://nodejs.org) module, if you are using *"type": "module"* in your file 'package.json', assuming that you are also using a recent version of '*Node.js*'.  
+("type":"module" should work with [Node.js versions 13.2.0 and later](https://nodejs.medium.com/announcing-core-node-js-support-for-ecmascript-modules-c5d6dc29b663))  
+An alternative for JavaScript, if you are not using *"type": "module"*  is to use the *require* syntax instead as below:
 ```javascript
 const {EpsgNumber} = require("@programmerare/epsg_constants");
 console.log("EpsgNumber WGS84 : " + EpsgNumber.WORLD__WGS_84__4326);
 console.log("EpsgNumber SWEREF99TM : " + EpsgNumber.SWEDEN__SWEREF99_TM__3006);
 ```
+
+If you for some unknown reason would like to use a big file with constants from a webpage, it is possible by including the file ['node_modules/epsg_constants/dist/epsg_constants_bundle.js'](https://github.com/TomasJohansson/epsg_constants_4typescript/blob/main/epsg_constants/dist/epsg_constants_bundle.js) in a webpage as in the [example webpage](https://github.com/TomasJohansson/epsg_constants_4typescript/blob/main/example_javascript_browser_bundle/index.htm)
+
 ## License
 
 The constants in this library was [generated](https://github.com/TomasJohansson/crsTransformations/tree/master/crs-transformation-code-generation) based on data from [EPSG](http://www.epsg.org) Dataset.
