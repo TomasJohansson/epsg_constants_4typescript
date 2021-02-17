@@ -10,6 +10,6 @@
   "author": "Tomas Johansson",
   "license": "ISC",
   "dependencies": {
-    "epsg_constants": "link:..\\epsg_constants"
+    "@programmerare/epsg_constants": "^10.11.1"
   }
 }

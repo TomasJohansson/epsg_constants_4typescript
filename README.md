@@ -35,7 +35,7 @@ console.log("EpsgNumber WGS84 : " + EpsgNumber.WORLD__WGS_84__4326);
 console.log("EpsgNumber SWEREF99TM : " + EpsgNumber.SWEDEN__SWEREF99_TM__3006);
 ```
 
-If you for some unknown reason would like to use a big file with constants from a webpage, it is possible by including the file ['node_modules/epsg_constants/dist/epsg_constants_bundle.js'](https://github.com/TomasJohansson/epsg_constants_4typescript/blob/main/epsg_constants/dist/epsg_constants_bundle.js) in a webpage as in the [example webpage](https://github.com/TomasJohansson/epsg_constants_4typescript/blob/main/example_javascript_browser_bundle/index.htm)
+If you for some unknown reason would like to use a big file with constants from a webpage, it is possible by including the file ['node_modules/@programmerare/epsg_constants/dist/epsg_constants_bundle.js'](https://github.com/TomasJohansson/epsg_constants_4typescript/blob/main/epsg_constants/dist/epsg_constants_bundle.js) in a webpage as in the [example webpage](https://github.com/TomasJohansson/epsg_constants_4typescript/blob/main/example_javascript_browser_bundle/index.htm)
 
 ## License
 

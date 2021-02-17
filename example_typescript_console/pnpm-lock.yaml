@@ -1,10 +1,14 @@
 dependencies:
-  epsg_constants: link:../epsg_constants
+  '@programmerare/epsg_constants': 10.11.1
 devDependencies:
   ts-node: 9.1.1_typescript@4.1.5
   typescript: 4.1.5
 lockfileVersion: 5.2
 packages:
+  /@programmerare/epsg_constants/10.11.1:
+    dev: false
+    resolution:
+      integrity: sha512-+zJXF7E9lhXo057LpmXa/b6YJULvv9PmMoa5BL5edCiSK9QLpJBFNoXdvK6v5iBNKgw1Rtk4DeW+UEorl+NBfg==
   /arg/4.1.3:
     dev: true
     resolution:
@@ -71,6 +75,6 @@ packages:
     resolution:
       integrity: sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==
 specifiers:
-  epsg_constants: link:..\epsg_constants
+  '@programmerare/epsg_constants': ^10.11.1
   ts-node: ^9.1.1
   typescript: ^4.1.5
