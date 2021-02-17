@@ -8,7 +8,7 @@
     "dev":  "webpack --mode development",
     "prod": "webpack --mode production",    
     "test": "jest"
-  },
+  },  
   "keywords": [],
   "author": "Tomas Johansson",
   "homepage": "https://github.com/TomasJohansson/epsg_constants_4typescript",
@@ -27,5 +27,5 @@
     "webpack": "^5.22.0",
     "webpack-cli": "^4.5.0"
   },
-  "license": "MIT"  
+  "license": "MIT"
 }
